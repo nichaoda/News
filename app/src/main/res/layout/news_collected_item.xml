@@ -8,7 +8,8 @@
     <TextView
         android:id="@+id/news_collected_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_height="60dp"
         android:layout_margin="10dp"
         android:ellipsize="end"
         android:maxLines="2"
