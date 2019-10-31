@@ -1,4 +1,4 @@
-package com.example.news;
+package com.example.news.activity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,11 +7,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.news.fragment.NewsFragment;
+import com.example.news.R;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -107,6 +110,9 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.exit:
                 finish();
+                return true;
+            case R.id.collection:
+                startActivity(new Intent(this, CollectionActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

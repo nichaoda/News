@@ -9,4 +9,8 @@
         android:id="@+id/exit"
         android:title="@string/exit"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/collection"
+        android:title="@string/collection"
+        app:showAsAction="never" />
 </menu>

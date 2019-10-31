@@ -1,11 +1,10 @@
-package com.example.news;
+package com.example.news.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,8 +12,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.example.news.GetNews;
+import com.example.news.R;
+import com.example.news.adapter.NewsAdapter;
+import com.example.news.bean.NewsBean;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;

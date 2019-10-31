@@ -2,4 +2,7 @@
     <string name="app_name">News</string>
     <string name="about">关于</string>
     <string name="exit">退出</string>
+    <string name="collect">收藏</string>
+    <string name="collection">收藏夹</string>
+    <string name="no_collection">没有收藏新闻!</string>
 </resources>

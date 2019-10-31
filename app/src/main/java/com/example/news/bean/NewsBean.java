@@ -1,4 +1,4 @@
-package com.example.news;
+package com.example.news.bean;
 
 import java.util.List;
 

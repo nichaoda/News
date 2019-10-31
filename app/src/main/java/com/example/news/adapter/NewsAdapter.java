@@ -1,4 +1,4 @@
-package com.example.news;
+package com.example.news.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,6 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.news.R;
+import com.example.news.activity.WebActivity;
+import com.example.news.bean.NewsBean;
 
 import java.util.List;
 
